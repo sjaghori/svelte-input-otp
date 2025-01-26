@@ -1,5 +1,5 @@
 <script lang="ts">
-	import OTPItem from '../otp-item/OTPItem.svelte';
+	import { OTPItem } from '../otp-item/index.js';
 
 	type OTPInputProps = {
 		numOfInputs?: number;

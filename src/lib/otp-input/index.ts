@@ -1,1 +1,1 @@
-export * as OTPInput from './OTPInput.svelte';
+export { default as OTPInput } from './OTPInput.svelte';

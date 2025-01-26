@@ -1,1 +1,1 @@
-export * as OTPItem from './OTPItem.svelte';
+export { default as OTPItem } from './OTPItem.svelte';
