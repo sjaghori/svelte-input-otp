@@ -1,5 +1,5 @@
 <script>
-	import OTPInput from '$lib/OTPInput.svelte';
+	import OTPInput from '$lib/otp-input/OTPInput.svelte';
 </script>
 
 <h1>Welcome to your library project</h1>

@@ -1,2 +1,2 @@
-export { default as OTPInput } from './OTPInput.svelte';
-export { default as OTPItem } from './OTPItem.svelte';
+export * from './otp-input/index.js';
+export * from './otp-item/index.js';
