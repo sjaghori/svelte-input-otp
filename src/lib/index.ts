@@ -1,2 +1,3 @@
-export * from './otp-input/OTPInput.svelte';
-export * from './otp-item/OTPItem.svelte';
+import OTPInput from './otp-input/OTPInput.svelte';
+
+export { OTPInput };

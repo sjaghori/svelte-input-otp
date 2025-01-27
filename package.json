@@ -1,6 +1,6 @@
 {
 	"name": "svelte-input-otp",
-	"version": "0.0.7",
+	"version": "0.0.8",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run prepack",
@@ -27,20 +27,9 @@
 	"types": "./dist/index.d.ts",
 	"type": "module",
 	"exports": {
-		"./package.json": "./package.json",
 		".": {
 			"types": "./dist/index.d.ts",
 			"svelte": "./dist/index.js"
-		},
-		"./OTPItem": {
-			"types": "./dist/otp-item/OTPItem.svelte.d.ts",
-			"svelte": "./dist/otp-item/OTPItem.svelte",
-			"default": "./dist/otp-item/OTPItem.svelte"
-		},
-		"./OTPInput": {
-			"types": "./dist/otp-input/OTPInput.svelte.d.ts",
-			"svelte": "./dist/otp-input/OTPInput.svelte",
-			"default": "./dist/otp-input/OTPInput.svelte"
 		}
 	},
 	"peerDependencies": {
